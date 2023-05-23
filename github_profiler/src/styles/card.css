@@ -15,25 +15,12 @@ body {
 }
 @media (max-width: 868px) {
     .card {
-        width: 80%;
+        width: 100%;
         padding: 1rem;
     }
     
 }
-@media (max-width: 400px) {
-    .form-box {
-        width: 100%;
-        padding-left: 0;
-        display: flex;
-        justify-content: space-between;
-        grid-template-columns: 1fr 2fr 1fr;
-        gap: 10px;
-    }
-    .card {
-        padding: 0;
-        margin: 0;
-    }
-}
+
 .form-box {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
