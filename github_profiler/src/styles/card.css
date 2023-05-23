@@ -1,0 +1,81 @@
+body {
+    overflow-x: hidden;
+}
+.card {
+    width: 50%;
+    min-height: 50rem;
+    border-radius: 8px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 2rem;
+    overflow-x: hidden;
+    background-color: #FFF7FA;
+    color: #2F234B;
+}
+@media (max-width: 868px) {
+    .card {
+        width: 80%;
+        padding: 1rem;
+    }
+    
+}
+@media (max-width: 400px) {
+    .form-box {
+        width: 100%;
+        padding-left: 0;
+        display: flex;
+        justify-content: space-between;
+        grid-template-columns: 1fr 2fr 1fr;
+        gap: 10px;
+    }
+    .card {
+        padding: 0;
+        margin: 0;
+    }
+}
+.form-box {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 1rem;
+    align-items: center;
+    width: 80%;
+    padding-right: 1rem;
+}
+.form-box label {
+    margin-left: 1rem;
+}
+.form-box button  {
+    height: 2.5rem;
+    background-color: #F74A8A;
+    color: #2F234B;
+    border: none;
+}
+.form-box input[type='text'] {
+    height: 2.5rem;
+    background-color: #E0CBDC;
+    color: #2F234B;
+    border: solid 1px #2F234B;
+}
+.image-box {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    margin-top: 1rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.image-box img {
+    width: inherit;
+    border-radius: 50%;
+}
+.data-box {
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    margin-top: 17rem;
+    transform: translate(-50%);
+    padding: 1rem;
+}
